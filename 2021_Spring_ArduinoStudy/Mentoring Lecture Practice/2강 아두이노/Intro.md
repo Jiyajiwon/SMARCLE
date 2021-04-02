@@ -18,11 +18,11 @@
 시리얼 모니터 창 띄우기
 정보를 표시하고 싶을 때 사용
 
-### **serial.print();**
-개행 안 됨
+> ### **serial.print();**
+> 개행 안 됨
 
-### serial.println();
-개행됨
+> ### serial.println();
+> 개행됨
 
 <hr/>
 
