@@ -1,4 +1,8 @@
-## Arduino Sketch
+## **브레드보드의 전류 흐름**
+연결되어 있는 부분  
+![image](https://user-images.githubusercontent.com/78032658/113339282-3976d080-9365-11eb-9d10-7a4e9cddef24.png)
+
+## **Arduino Sketch**
 ![image](https://user-images.githubusercontent.com/78032658/113332163-c87eeb00-935b-11eb-8534-4d0c5c8e86c1.png)
 1. setup()
 : 아두이노 명령에 필요한 세팅
@@ -7,11 +11,11 @@
 
 <hr/>
 
-## 오렌지보드에 대한 정보
+## **오렌지보드에 대한 정보**
 * MicroUSB를 사용한다.(스마트폰 충전기로 주로 사용하는 단자)
 * 도구-보드-아두이노UNO(호환보드)
 
-## 포트 선택이 되지 않을 때/인식이 안 될 때 해결방법
+## **포트 선택이 되지 않을 때/인식이 안 될 때 해결방법**
 * 해당 USB 장치가 알 수 없는 장치로 저장되어있는 경우 -> 해당 USB 장치의 저장된 정보를 제거하여 재인식시키는 방법
 >1. 제어판 -> 하드웨어 및 소리
 >2. 장치 및 프린터 -> 장치 관리자
@@ -25,7 +29,7 @@
   
 <hr/>
 
-## 1. "Hello world" 출력하기
+## **1. "Hello world" 출력하기**
 1. 코드 입력
 
 ```c
@@ -51,7 +55,7 @@ void loop() {
 
 <hr/>
 
-## 2. 보드 LED 깜빡여보기
+## **2. 보드 LED 깜빡여보기**
 ### 1. LED 켜기
 ```c
 void setup() {
@@ -65,7 +69,8 @@ void loop() {
   digitalWrite(13,HIGH); // LED 켰다 껐다, (핀 번호, 전류 흐르게(H) 안 흐르게(L))
 }
 ```
-![image](https://user-images.githubusercontent.com/78032658/113338498-28798f80-9364-11eb-97ae-dfef25d9c89f.png)
+
+![image](https://user-images.githubusercontent.com/78032658/113338567-3fb87d00-9364-11eb-98d6-73058eb54f07.png)
 
 ### 2. LED 끄기
 ```c
@@ -80,7 +85,7 @@ void loop() {
   digitalWrite(13,LOW); // LED 켰다 껐다, (핀 번호, 전류 흐르게(H) 안 흐르게(L))
 }
 ```
-![image](https://user-images.githubusercontent.com/78032658/113338567-3fb87d00-9364-11eb-98d6-73058eb54f07.png)
+![image](https://user-images.githubusercontent.com/78032658/113338498-28798f80-9364-11eb-97ae-dfef25d9c89f.png)
 
 ### 3. 1초 간격으로 껐다 켰다하기
 ```c
