@@ -22,6 +22,6 @@ void loop() {
 ### 회로도
 ![image](https://user-images.githubusercontent.com/78032658/113391981-5b0ca200-93cf-11eb-89c8-236d8ceb1845.png)
 
-## 실행 모습
+### 실행 모습
 ![image](https://user-images.githubusercontent.com/78032658/113389284-b9835180-93ca-11eb-8440-3fc56005022e.png)
 ![image](https://user-images.githubusercontent.com/78032658/113389321-cef87b80-93ca-11eb-9db5-ca1785ba2015.png)
